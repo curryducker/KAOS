@@ -1,6 +1,3 @@
-#ifndef KAOS_UTIL_H
-#define KAOS_UTIL_H
-
 #include "f_util.h"
 
 int fd_in_array(FIL *fd, FIL *array[], int len)
@@ -12,6 +9,7 @@ int fd_in_array(FIL *fd, FIL *array[], int len)
   }
   return 0;
 }
+
 int get_fd_in_array(FIL *fd, FIL *array[], int len)
 {
   for (int i = 0; i < len; i++)
@@ -74,4 +72,3 @@ char create_sense_bitmask(FIL *array[], int len)
   }
   return ret;
 }
-#endif // KAOS_UTIL_H

@@ -2,6 +2,17 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
         "skylandercrypt.h": "c",
-        "md5.h": "c"
+        "md5.h": "c",
+        "usb_descriptors.h": "c",
+        "tusb.h": "c",
+        "tusb_common.h": "c",
+        "osal.h": "c",
+        "tusb_debug.h": "c",
+        "tusb_option.h": "c",
+        "tusb_compiler.h": "c",
+        "skylander.h": "c",
+        "cstdlib": "c",
+        "string.h": "c",
+        "f_util.h": "c"
     }
 }
